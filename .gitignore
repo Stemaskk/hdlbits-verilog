@@ -1,9 +1,3 @@
-# Icarus Verilog simulation artifacts
-*.vvp
-*.vcd
-sim
-a.out
-
 # Editor/OS cruft
 .DS_Store
 *.swp

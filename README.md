@@ -14,7 +14,7 @@ folder containing the solution and a short README with the problem statement/lin
 any notes on my approach.
 
 ```
-hdlbits-solutions/
+hdlbits-verilog/
 ├── getting_started/
 ├── verilog_language/
 │   ├── basics/              # Wire, 4-bit adder, module hierarchy intro
@@ -37,7 +37,7 @@ hdlbits-solutions/
 ├── reading_simulations/     # Deriving circuits/bugs from given waveforms
 ├── writing_testbenches/     # Non-synthesizable testbench-writing exercises
 ├── templates/               # Boilerplate for a new problem
-└── scripts/                 # Helper scripts (scaffold new problem, run sim)
+└── scripts/                 # Helper script to scaffold a new problem
 ```
 
 ## Progress
@@ -63,19 +63,9 @@ This copies `templates/` into the target folder, pre-filled with the problem nam
 Then:
 
 1. Fill in `README.md` with the HDLBits problem link and a one-line description.
-2. Write your solution in the `.v` file.
-3. If useful, add a testbench in `tb.v` and simulate locally (see below).
-4. Check the box in this file's progress table / a per-category README if you keep one.
-
-## Running a simulation locally
-
-Solutions target [Icarus Verilog](http://iverilog.icarus.com/), the same simulator
-HDLBits uses under the hood.
-
-```bash
-iverilog -o sim solution.v tb.v
-vvp sim
-```
+2. Write and check your solution using HDLBits' own in-browser simulator.
+3. Paste the passing solution into the `.v` file here.
+4. Update the progress table above.
 
 ## License
 

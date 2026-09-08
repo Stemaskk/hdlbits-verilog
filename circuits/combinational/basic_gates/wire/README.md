@@ -10,4 +10,4 @@ Create a module with one input and one output that behaves like a wire (pass-thr
 ## Notes
 
 Simplest possible module — just a continuous assignment. Good sanity check that the
-toolchain (this repo's scaffold + iverilog) is wired up correctly.
+scaffold script and folder pattern are wired up correctly.
