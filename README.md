@@ -45,7 +45,7 @@ hdlbits-verilog/
 | Category | Solved / Total |
 |---|---|
 | Getting Started | 2 / 2 |
-| Verilog Language | 10 / ~45 |
+| Verilog Language | 11 / ~45 |
 | Circuits – Combinational | 0 / ~90 |
 | Circuits – Sequential | 0 / ~60 |
 | Reading Simulations | 0 / ~10 |
